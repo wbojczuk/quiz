@@ -403,5 +403,5 @@ function question5() {
 // Calculate Average Grade 
 function average() {
     var avg = (correct / total) * 100;
-    document.getElementById("feedback").innerHTML = avg;
+    document.getElementById("feedback").innerHTML = avg.toFixed(1);
 }
