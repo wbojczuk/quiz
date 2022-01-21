@@ -568,5 +568,5 @@ function average() {
     }
     document.getElementById("retriesWrapper").style.display = "none";
     document.getElementById("continueButton").style.display = "none";
-    document.getElementById("feedback").innerHTML = "You Scored " + avg.toFixed(1) + "<br> Or A(N)  " + avgLetter;
+    document.getElementById("feedback").innerHTML = "You Scored " + avg.toFixed(1) + "% <br> Or A(N)  " + avgLetter;
 }
