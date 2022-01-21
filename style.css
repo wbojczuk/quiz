@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+
+body {
+    margin: 0;
+    background-color: #f2f2f2;
+}
+button:hover {
+    cursor: pointer;
+}
+
+/* Custom Classes */
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+.bg-grey {
+    background-color: #aaa;
+}
+.bg-film {
+    opacity: 0.4;
+    background-color: #aaa;
+}
+.txt-md {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+/* Welcome */
+
+.welcome-wrapper {
+    height: 200px;
+    text-align: center;
+    background-image: url('img/hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: top;
+}
+
+.welcome-text {
+    font-size: 120px;
+    font-weight: 500;
+    font-family: "Tangerine", "cursive";
+}
+
+/* Quiz Styling */
+
+#questionCounter {
+    margin-right: 5%;
+    text-decoration: underline;
+}
+
+.question-label {
+    margin-right: 2%;
+}
+.guess-input {
+    padding: 10px;
+}
+.submit {
+    padding: 10px;
+    background-color: #00b359;
+    border-color: #00994d;
+    color: #fff;
+}
+
+/* Feedback Styling */
+
+.feedback {
+    font-size: 30px;
+    font-family: "Satisfy", "sans-serif";
+    margin-top: 20px;
+    width: 15vw;
+    padding: 2vw 0 2vw 0;
+    text-align: center;
+    display: none;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.retries-wrapper {
+    color: red;
+    font-size: 18px;
+    display: none;
+}
+
+
+/* Continue Button */
+
+.continue-button {
+    margin-top: 10px;
+    display: none;
+    padding: 10px 15px 10px 15px;
+    background-color: #19bde6;
+    border-radius: 8px;
+    border-color: #00a3cc;
+}
+
+
+/* Print Testing */
+
+#printButton {
+    margin: 50px 0 10px 0;
+}
+
+#printTest {
+    
+}

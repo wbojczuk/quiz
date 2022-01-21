@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Quiz</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <script src="js/quiz.js" defer></script>
+</head>
+<body>
+    <!-- Welcome -->
+
+ <div class="welcome-wrapper center"><span class="welcome-text">JavaScript Quiz</span></div>
+    <br><br>
+
+ <!-- Quiz -->
+
+ <!-- Question # Counter -->
+<section>
+                                                                            <!-- Change The Total Number -->
+    <div class="right"><span id="questionCounter"><span id="questionCounterNum">1</span> of 6</span></div>
+</section>
+
+
+ <!-- Input and Submit -->
+<section>
+    <form class="quiz-form txt-md" id="quizForm" onsubmit="return false">
+        <div class="center">
+            <label class="question-label">What is the answer to <span id="question">8 + 2</span>?</label>
+            <input type="text" class="guess-input" id="guessInput" placeholder="Enter Answer Here">
+            <button class="submit" id="submit" type="submit" onclick="question();">Submit Answer</button>
+        </div>
+    </form>
+</section>
+
+<!-- Feedback -->
+<div class="center"><div class="feedback" id="feedback">WRONG!</div></div>
+<div class="center"><div class="retries-wrapper" id="retriesWrapper">Retries left: <span id="retries"></span></div></div>
+
+<!-- Continue Button -->
+<div class="center"><button class="continue-button" id="continueButton">Continue</button></div>
+
+
+
+
+
+<!-- Print Testing -->
+<!-- <section>
+    <div class="center"><button id="printButton" onclick="printTest();">PRINT</button></div>
+    <div class="center"><span id="printTest"></span></div>
+</section> -->
+</body>
+</html>
